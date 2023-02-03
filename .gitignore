@@ -1,0 +1,6 @@
+# Files to ignore
+*.env
+
+# Folders to ignore
+node_modules
+package-lock.json

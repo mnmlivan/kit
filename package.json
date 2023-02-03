@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "kit",
+  "version": "1.0.0",
+  "description": "Indiekit server for my personal website",
+  "keywords": [
+    "indiekit",
+    "indieweb"
+  ],
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnmlivan/kit.git"
+  },
+  "homepage": "https://kit.mnmlivan.xyz",
+  "engines": {
+    "node": ">=18"
+  },
+  "main": "index.config.js",
+  "scripts": {
+    "start": "indiekit serve"
+  },
+  "dependencies": {
+    "@indiekit/endpoint-json-feed": "^1.0.0-beta.2",
+    "@indiekit/indiekit": "^1.0.0-beta.2",
+    "@indiekit/preset-jekyll": "^1.0.0-beta.1",
+    "@indiekit/store-github": "^1.0.0-beta.1",
+    "@indiekit/syndicator-mastodon": "^1.0.0-beta.2"
+  }
+}
