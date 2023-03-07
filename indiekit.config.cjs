@@ -114,7 +114,7 @@ module.exports = {
   "@indiekit/syndicator-mastodon": {
     checked: true,
     forced: true,
-    url: "https://indieweb.social",
+    url: "https://mastodon.social",
     user: "mnmlivan",
     accessToken: process.env.MASTODON_ACCESS_TOKEN
   },
